@@ -21,9 +21,9 @@
 	<meta name="keywords" content="access, virus, virus ti, synthesizer, app, patch, editor, music">
 	<meta name="author" content="Maarten Lierop">
 
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="scss/bootstrap.css">
 	<link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="scss/all.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -79,9 +79,8 @@
 			<div class="row">
 				<div class="text-box col-md-offset-1 col-md-10">
 					<h2>IOS Patch editor for Virus TI</h2>
-					<p>The Virus TI is a virtual analog synthesizer manufactured by Access. It is a highly flexible synthesizer, capable of a wide variaty of sounds.</p>
-                    <p>Rage is the first dedicated patch editor for Virus synthesizers on IOS.
-                    Rage is designed to let you create and discover new sounds with ease, while at the same time it allows you to finetune your patches in detail.</p>
+                    <p>Rage is the first dedicated patch editor for Virus synthesizers on IOS.<br/>
+                    Rage is designed to let you create and discover new sounds with ease. At the same time it allows you to finetune your patches in detail.</p>
 				</div>
 			</div>
 		</div>
@@ -135,7 +134,7 @@
 				<div class="col-md-7">
 					<div class="slide-holder">
 						<h2 class="hidden-xs hidden-sm text-primary">What is Rage for Virus?</h2>
-						<div class="img-slide scroll-trigger"><img src="images/Scrn-filtermain.png" height="624" width="1184" alt=""></div>
+						<div class="img-slide scroll-trigger"><img src="images/filter2.png" height="624"  alt=""></div>
 					</div>
 				</div>
 			</div>
@@ -216,16 +215,56 @@
 				<h2>How does it look like?</h2>
 				<ul class="testimonials">
 					<li>
-						<div class="img-holder"><a href="#"><img src="images/Scrn-oscmain2.png" width="296" alt="screenshot oscillator page"></a></div>
-						<p><em>All main oscillator (1+2) controls</em></p>
+						<div class="img-holder"><a href="images/OSC-1.png" class="gallery1"><img src="images/OSC-1.png" width="296" alt="screenshot oscillator page"></a></div>
+						<p><em>oscillator page 1</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/OSC-2.png" class="gallery1"><img src="images/OSC-2.png" width="296" alt="screenshot oscillator page"></a></div>
+						<p><em>oscillator page 2</em></p>
 					</li>
 					<li>
-						<div class="img-holder"><a href="#"><img src="images/Scrn-modlfo.png" width="296"  alt="screenshot lfo page"></a></div>
-						<p><em>All settings for 3 LFO's</em></p>
+						<div class="img-holder"><a href="images/filter1.png" class="gallery1"><img src="images/filter1.png" width="296" alt="screenshot filter page"></a></div>
+						<p><em>filter page 1</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/filter2.png" class="gallery1"><img src="images/filter2.png" width="296" alt="screenshot filter page"></a></div>
+						<p><em>filter page 2</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/mod1.png" class="gallery1"><img src="images/mod1.png" width="296" alt="screenshot modulation page"></a></div>
+						<p><em>modulation page 1</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/mod2.png" class="gallery1"><img src="images/mod2.png" width="296" alt="screenshot modulation page"></a></div>
+						<p><em>modulation page 2</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/mod3.png" class="gallery1"><img src="images/mod3.png" width="296" alt="screenshot modulation page"></a></div>
+						<p><em>modulation page 3</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/mod4.png" class="gallery1"><img src="images/mod4.png" width="296" alt="screenshot modulation page"></a></div>
+						<p><em>modulation page 4</em></p>
 					</li>
 					<li>
-						<div class="img-holder"><a href="#"><img src="images/Scrn-modenv.png" width="296" alt="screenshot free envelope page"></a></div>
-						<p><em>Free envelopes with their own matrix slot.</em></p>
+						<div class="img-holder"><a href="images/control1.png" class="gallery1"><img src="images/control1.png" width="296"  alt="control page"></a></div>
+						<p><em>control page</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/arp1.png" class="gallery1"><img src="images/arp1.png" width="296"  alt="arpeggiator page"></a></div>
+						<p><em>arpeggiator page</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/effects1.png" class="gallery1"><img src="images/effects1.png" width="296"  alt="effects page 1"></a></div>
+						<p><em>effects page 1</em></p>
+					</li>
+                    <li>
+						<div class="img-holder"><a href="images/effects2.png" class="gallery1"><img src="images/effects2.png" width="296"  alt="effects page 2"></a></div>
+						<p><em>effects page 2</em></p>
+					</li>
+					<li>
+						<div class="img-holder"><a href="images/ambiance.png" class="gallery1"><img src="images/ambiance.png" width="296" alt="ambiance page"></a></div>
+						<p><em>ambiance effects</em></p>
 					</li>
 
 				</ul>
@@ -384,8 +423,29 @@
 		</div>
 	</footer>
 </div>
-<script src="js/jquery-1.11.2.min.js"></script>
+<!--
+    <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/jquery.main.js"></script>
+<script src="js/jquery.main.js"></script>-->
+    <script src="js/lightbox/halkaBox.min.js"></script>
+    <script>
+    window.onload = function () {
+            halkaBox.run("gallery1");
+            halkaBox.run("gallery2", {
+                animation: "fade",
+                theme: "dark",
+                hideButtons: false,
+                preload: 0
+            });
+            halkaBox.run("hb-single");
+            halkaBox.run("singleImage1", {
+                theme: "dark"
+            });
+            halkaBox.run("singleImage2", {
+                theme: "dark"
+            });
+        };
+    </script>
+    <link rel="stylesheet" href="js/lightbox/halkaBox.min.css">
 </body>
 </html>
